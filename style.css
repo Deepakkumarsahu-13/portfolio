@@ -23,7 +23,8 @@ body {
     background-size: cover;
     background-position: center;
 }
-#logo1{
+
+#logo1 {
     width: 20%;
     height: 10vh;
     position: left;
@@ -44,7 +45,7 @@ nav {
 
 .logo {
     width: 140px;
-   
+
 
 }
 
@@ -403,7 +404,7 @@ nav .fas {
 @media only screen and (max-width:600px) {
     #header {
         height: 100%;
-        background-image: url(image/background-7.png.jpg);
+        /* background-image: url(image/background-7.png.jpg); */
     }
 
     .header-text {
@@ -412,11 +413,12 @@ nav .fas {
     }
 
     .header-text h1 {
-        
+
         font-size: 30px;
     }
-    .header-text  {
-margin-top: 50px;
+
+    .header-text {
+        margin-top: 50px;
         font-size: 30px;
     }
 
@@ -424,22 +426,26 @@ margin-top: 50px;
         display: block;
         font-size: 25px;
     }
-    #logo1{
+
+    #logo1 {
         width: 30%;
         height: 5vh;
         /* background-size: cover; */
-    
+
     }
-   
+
 
     nav ul {
         background: #ff004f;
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
-        height: 100vh;
+        width: 150px;
+        height: 45vh;
         padding-top: 50px;
+        border-radius: 14px;
+        margin-right: 15px;
+        margin-top: 20px;
         z-index: 2;
         transition: right 0.5s;
     }
