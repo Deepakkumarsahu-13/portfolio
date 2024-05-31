@@ -404,7 +404,7 @@ nav .fas {
 @media only screen and (max-width:600px) {
     #header {
         height: 100%;
-        /* background-image: url(image/background-7.png.jpg); */
+        background-image: none;
     }
 
     .header-text {
@@ -459,6 +459,7 @@ nav .fas {
     nav ul .fas {
         position: absolute;
         top: 25px;
+        left: 25px;
         cursor: pointer;
     }
 
